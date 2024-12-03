@@ -13,7 +13,7 @@ No te olvides de incorporar input()
 """
 
 temperatura = int(input("Ingrese la temperatura actual: "))
-sol = str(input("¿Hoy salió el sol? ¿S/N?: "))
+sol = str(input("¿Hoy salió el sol? ¿S/N?: ")).capitalize()
 
 hay_sol = "Lleva gafas de sol para protegerte de la luz solar~" if sol == "S" else "Te sugerimos llevar un paraguas, por si llueve~"
 
